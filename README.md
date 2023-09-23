@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/slice-ctor/tags). For example,
+
+```javascript
 import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@v0.1.0-esm/index.mjs';
 ```
 
@@ -263,7 +268,7 @@ o = s.toJSON();
 <body>
 <script type="module">
 
-import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@v0.1.0-esm/index.mjs';
+import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@esm/index.mjs';
 
 var s = new Slice( 9, -10, -1 );
 // returns <Slice>

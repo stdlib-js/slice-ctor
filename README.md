@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@deno/mod.js';
+import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@v0.2.0-deno/mod.js';
 ```
 
 <a name="main"></a>
@@ -258,7 +258,7 @@ o = s.toJSON();
 <!-- eslint-disable no-global-assign, stdlib/no-redeclare -->
 
 ```javascript
-import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@deno/mod.js';
+import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@v0.2.0-deno/mod.js';
 
 var s = new Slice( 9, -10, -1 );
 // returns <Slice>

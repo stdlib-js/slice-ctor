@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/slice-ctor/tags). For example,
+
+```javascript
 import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@v0.2.2-deno/mod.js';
 ```
 
@@ -258,7 +263,7 @@ o = s.toJSON();
 <!-- eslint-disable no-global-assign, stdlib/no-redeclare -->
 
 ```javascript
-import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@v0.2.2-deno/mod.js';
+import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@deno/mod.js';
 
 var s = new Slice( 9, -10, -1 );
 // returns <Slice>

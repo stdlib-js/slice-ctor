@@ -92,13 +92,12 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ### BREAKING CHANGES
 
--   [`a2ba8cb`](https://github.com/stdlib-js/stdlib/commit/a2ba8cb436dacd253ea0e8eef0aeaf0f5e249ccc): refactor to support eliding arguments
--   [`a2ba8cb`](https://github.com/stdlib-js/stdlib/commit/a2ba8cb436dacd253ea0e8eef0aeaf0f5e249ccc): support argument omission 
+-   [`a2ba8cb`](https://github.com/stdlib-js/stdlib/commit/a2ba8cb436dacd253ea0e8eef0aeaf0f5e249ccc): support argument omission
 
     -   Existing code should continue to work as is; however, error handling
-    has changed. One can now create a slice without providing arguments.
-    To adopt the new syntax, one no longer has to explicitly provide
-    `null` for \"empty\" slice parameters.
+        has changed. One can now create a slice without providing arguments.
+        To adopt the new syntax, one no longer has to explicitly provide
+        `null` for \"empty\" slice parameters.
 
 </section>
 
